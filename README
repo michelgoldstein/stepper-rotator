@@ -1,0 +1,13 @@
+This is a simple program that uses an Arduino to control a stepper motor (through 
+Adafruit's motor shield) to just rotate until a sensor identifies that it had
+hit something. Also it support control through serial to start rotation again
+or connecting to a membrane keypad.
+
+Tested on:
+* Arduino Mega ATmega1280
+* Adafruit Motor shield - http://www.adafruit.com/mshield
+* Parallax 4x4 membrane keypad - 27899
+* Unknown small stepper motor
+
+Details of required libraries can be found on the code.
+
