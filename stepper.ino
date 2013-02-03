@@ -1,6 +1,14 @@
 #include <Keypad.h>
 #include <AFMotor.h>
 
+/**
+ * This program depends on the motor shield from Adafruit
+ * http://www.ladyada.net/make/mshield/index.html
+ * and the keypad library from 
+ * https://sites.google.com/site/arduinomega2560projects/home/analog/4x4-matrix-16-key-membrane
+ * See the constants below for information on pins to connect everything
+ */
+
 #define SENSOR_PIN 8
 
 const byte ROWS = 4; // Four rows
